@@ -1,7 +1,5 @@
 require("nvchad.configs.lspconfig").defaults()
 
--- local servers = { "html", "cssls" }
-
 vim.lsp.config('lua_ls', {
   on_init = function(client)
     if client.workspace_folders then
@@ -51,7 +49,16 @@ vim.lsp.config('lua_ls', {
   }
 })
 
-local servers = { "lua_ls" }
+local servers = {
+  "lua_ls",
+  "ts_ls",
+  "html",
+  "cssls",
+  "jsonls",
+  "eslint",
+  "gdscript",
+  "pyright"
+}
 
 vim.lsp.enable(servers)
 

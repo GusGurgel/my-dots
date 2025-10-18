@@ -5,6 +5,14 @@
     - [Install ripgrep (telescope live grep)](https://github.com/BurntSushi/ripgrep)
 4. Install LSPs
     - [Install lua-language-server](https://github.com/LuaLS/lua-language-server)
+    - [Install 
+typescript-language-server
+](https://github.com/typescript-language-server/typescript-language-server)
+    - [Install 
+vscode-langservers-extracted
+](https://github.com/hrsh7th/vscode-langservers-extracted)
+        - html, css, json, eslint
+    - [Install pyright](https://github.com/microsoft/pyright)
 
 
 My `~/.config/nvim/` tree:
