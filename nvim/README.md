@@ -3,7 +3,10 @@
 3. Install required programs
     - [Install xclip (clipboard)](https://github.com/astrand/xclip) 
     - [Install ripgrep (telescope live grep)](https://github.com/BurntSushi/ripgrep)
-4. Install LSPs
+4. Install fromatters
+    - [Install godot-gdscript-toolkit]
+        - gd2py, (gdformat), gdlint, gdparse, gdradon
+5. Install LSPs
     - [Install lua-language-server](https://github.com/LuaLS/lua-language-server)
     - [Install 
 typescript-language-server
