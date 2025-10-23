@@ -10,6 +10,7 @@ map("t", "<Esc>", "<C-\\><C-n>", { noremap = true, desc = "exit terminal mode wi
 map("n", "<leader>fs", "<cmd>AutoSession search<cr>", { desc = "search sessions" })
 map("n", "<leader>X", "<cmd>%bd<cr>", { desc= "close all buffers"})
 map("n", "<leader>ot", "<cmd>term<cr>", { desc= "open terminal window"})
+map("n", "<leader>sc", "<cmd>set list!<cr>", { desc= "toggle show characters"})
 
 -- vim-ufo
 
